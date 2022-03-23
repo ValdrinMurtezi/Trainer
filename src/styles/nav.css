@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@450&display=swap");
+nav {
+  background-color: rgba(34, 109, 84, 0.761);
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  height: 4rem;
+}
+
+nav h1 {
+  font-size: 35px;
+  padding-bottom: 0.5rem;
+  color: rgb(255, 255, 255);
+  letter-spacing: 4px;
+  padding-left: 0rem;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  width: 43%;
+  flex-direction: row;
+  list-style: none;
+}
+
+li {
+  color: rgb(26, 44, 38);
+  font-size: 18px;
+  font-family: "Work Sans", sans-serif;
+}
+
+.menu {
+  width: 4%;
+  display: none;
+}
+
+@media (max-width: 830px) {
+  .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100% !important;
+    padding: 0;
+  }
+
+  nav h1 {
+    padding-left: 0;
+    padding-right: 10rem;
+    width: 40%;
+  }
+
+  .links {
+    display: none;
+  }
+  .menu {
+    width: 2%;
+    display: inline;
+    z-index: 1;
+  }
+  .menu .fa-solid {
+    font-size: 25px;
+    /* padding-left: 20%; */
+  }
+  .fa-xmark {
+    color: white !important;
+    font-size: 30px !important;
+    position: fixed;
+  }
+
+  .links.active {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 100% !important;
+    height: 40vh !important;
+    background-color: rgb(34, 109, 84);
+    position: fixed;
+    margin-top: 0 !important;
+    inset: 0;
+    padding: 2rem 0;
+    z-index: 1;
+  }
+  li {
+    font-size: 27px !important;
+  }
+}
+
+@media (max-width: 440px) {
+}
+
+@media (max-width: 440px) {
+  nav h1 {
+    padding-right: 4rem !important;
+  }
+  .links.active {
+    height: 55vh !important;
+  }
+}
