@@ -122,7 +122,7 @@ button:hover {
   .home {
     flex-direction: column;
     line-height: 22px;
-    padding: 2rem 0;
+    padding: 4rem 0 0 0;
   }
   .home-text {
     width: 100%;
@@ -154,7 +154,7 @@ button:hover {
     padding-top: 1rem;
   }
   .text {
-    width: 100%;
+    width: 20rem !important;
   }
   .start-now {
     width: 100% !important;
@@ -162,5 +162,10 @@ button:hover {
   .home-img {
     padding: 0;
     width: 100%;
+    height: 20rem;
+    overflow-y: hidden;
   }
+  /* .home-img img {
+    height: 100%;
+  } */
 }

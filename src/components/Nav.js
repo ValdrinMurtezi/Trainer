@@ -21,22 +21,22 @@ function Nav() {
       <nav>
         <h1>ATHLETIC.</h1>
         <ul className={active ? "links active" : "links"}>
-          <Link style={liStyle} to={"/home"}>
+          <Link onClick={changeActive} style={liStyle} to={"/home"}>
             <li>Home</li>
           </Link>
-          <Link style={liStyle} to={"/services"}>
+          <Link onClick={changeActive} style={liStyle} to={"/services"}>
             <li>Services</li>
           </Link>
-          <Link style={liStyle} to={"/about"}>
+          <Link onClick={changeActive} style={liStyle} to={"/about"}>
             <li>About</li>
           </Link>
-          <Link style={liStyle} to={"/contact"}>
+          <Link onClick={changeActive} style={liStyle} to={"/contact"}>
             <li>Contact</li>
           </Link>
         </ul>
-        <div onClick={changeActive} className="menu">
+        <div onClick={showMenu} className="menu">
           <i
-            onClick={showMenu}
+            onClick={changeActive}
             className={!menu ? "fa-solid fa-xmark" : "fa-solid fa-bars"}
           ></i>
         </div>

@@ -66,6 +66,7 @@ li {
     color: white !important;
     font-size: 30px !important;
     position: fixed;
+    top: 1rem;
   }
 
   .links.active {
