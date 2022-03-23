@@ -9,7 +9,7 @@ function Nav() {
   const changeActive = () => {
     setActive(!active);
   };
-  const showMenu = () => {
+  const changeMenuIcon = () => {
     setMenu(!menu);
   };
 
@@ -22,19 +22,19 @@ function Nav() {
         <h1>ATHLETIC.</h1>
         <ul className={active ? "links active" : "links"}>
           <Link onClick={changeActive} style={liStyle} to={"/home"}>
-            <li>Home</li>
+            <li onClick={changeMenuIcon}>Home</li>
           </Link>
           <Link onClick={changeActive} style={liStyle} to={"/services"}>
-            <li>Services</li>
+            <li onClick={changeMenuIcon}>Services</li>
           </Link>
           <Link onClick={changeActive} style={liStyle} to={"/about"}>
-            <li>About</li>
+            <li onClick={changeMenuIcon}>About</li>
           </Link>
           <Link onClick={changeActive} style={liStyle} to={"/contact"}>
-            <li>Contact</li>
+            <li onClick={changeMenuIcon}>Contact</li>
           </Link>
         </ul>
-        <div onClick={showMenu} className="menu">
+        <div onClick={changeMenuIcon} className="menu">
           <i
             onClick={changeActive}
             className={!menu ? "fa-solid fa-xmark" : "fa-solid fa-bars"}

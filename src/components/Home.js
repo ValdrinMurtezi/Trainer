@@ -14,10 +14,10 @@ function Home() {
         </div>
         <div className="second-text">
           <div className="text">
-            <p>
+            <q>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
               enim voluptatem provident repellat !
-            </p>
+            </q>
           </div>
         </div>
       </div>
