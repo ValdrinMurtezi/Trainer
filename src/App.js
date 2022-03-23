@@ -1,6 +1,5 @@
 import "./App.css";
 import RouterElements from "./components/RouterElements";
-import Nav from "./components/Nav";
 
 function App() {
   return (
