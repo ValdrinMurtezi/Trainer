@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@450&display=swap");
+.navbar {
+  position: static;
+}
+
 nav {
   background-color: rgba(34, 109, 84, 0.761);
   display: flex;
@@ -6,6 +10,7 @@ nav {
   align-items: center;
   justify-content: space-around;
   height: 4rem;
+  position: static;
 }
 
 nav h1 {
@@ -14,6 +19,7 @@ nav h1 {
   color: rgb(255, 255, 255);
   letter-spacing: 4px;
   padding-left: 0rem;
+  cursor: pointer;
 }
 
 .links {
