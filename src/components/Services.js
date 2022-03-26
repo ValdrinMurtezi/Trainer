@@ -55,6 +55,7 @@ function Services() {
           />
         ))}
       </div>
+      <div className="blank-div"></div>
     </div>
   );
 }

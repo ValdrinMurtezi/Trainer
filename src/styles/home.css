@@ -95,7 +95,7 @@ button:hover {
 @media (max-width: 900px) {
   .home {
     height: auto;
-    padding: 4rem 0;
+    padding: 5rem 0;
     flex-direction: column;
     width: 100%;
   }
