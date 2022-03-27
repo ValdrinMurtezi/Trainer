@@ -61,14 +61,13 @@
   .advices {
     padding-left: 2rem;
   }
-  body {
-    padding-bottom: 4rem !important;
-  }
+
   .services-container {
     max-width: 800px;
   }
   .services-section {
-    padding-bottom: 5rem !important;
+    padding: 5rem 0;
+    height: auto !important;
   }
   .service {
     margin-bottom: 1.5rem;
@@ -81,9 +80,7 @@
   .advices {
     padding-left: 2rem;
   }
-  body {
-    padding-bottom: 4rem !important;
-  }
+
   /* .services-section {
     height: auto;
     padding: 5rem 0;
@@ -103,9 +100,7 @@
   .advices {
     padding-left: 2rem;
   }
-  body {
-    padding-bottom: 4rem !important;
-  }
+
   .services-section {
     padding-bottom: 4rem !important;
   }

@@ -63,6 +63,7 @@ li {
   .menu {
     width: 2%;
     display: inline;
+    padding-left: 10rem;
     z-index: 1;
   }
   .menu .fa-solid {
@@ -95,7 +96,13 @@ li {
   }
 }
 
-@media (max-width: 440px) {
+@media (max-width: 567px) {
+  .menu {
+    padding-left: 2rem;
+  }
+}
+
+@media (max-width: 450px) {
   /* nav h1 {
     padding-right: 4rem !important;
   } */
