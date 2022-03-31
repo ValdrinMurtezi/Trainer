@@ -52,6 +52,7 @@ function Services() {
             image={service.img}
             name={service.name}
             info={service.info}
+            key={service.id}
           />
         ))}
       </div>

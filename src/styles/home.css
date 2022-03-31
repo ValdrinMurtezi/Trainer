@@ -3,7 +3,7 @@
 
 .home {
   width: 100%;
-  height: 90vh;
+  height: 92.5vh;
   background-color: rgb(196, 214, 214);
   display: flex;
   flex-direction: row;
@@ -23,7 +23,6 @@
 
 .main-text {
   line-height: 0px;
-  /* text-align: left; */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -48,7 +47,7 @@
 }
 .start-now button {
   cursor: pointer;
-  padding: 1rem;
+  padding: 1.5rem;
   border: none;
   font-size: 20px;
   color: white;
