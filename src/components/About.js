@@ -60,25 +60,25 @@ function About() {
               name={"John Doe"}
               role={"Sit amet consectetur"}
               img={"/imgs/trainer.png"}
-              info={"Aut corrupti dolores soluta laudantium."}
+              info={"Aut corrupti dolores animienim soluta laudantium."}
             />
             <Trainer
               name={"John Doe"}
-              role={"Sit amet consectetur"}
+              role={"Corrupti dolores"}
               img={"/imgs/trainer2.png"}
-              info={"Aut corrupti dolores soluta laudantium."}
+              info={"Consequuntur animienim cumque aliquam!"}
             />{" "}
             <Trainer
               name={"John Doe"}
-              role={"Sit amet consectetur"}
+              role={"Fi soluta laudantium"}
               img={"/imgs/trainer3.png"}
-              info={"Aut corrupti dolores soluta laudantium."}
+              info={"Aut corrupti dolores soluta laudantium animi enim."}
             />{" "}
             <Trainer
               name={"John Doe"}
-              role={"Sit amet consectetur"}
+              role={"Aut adipisicing "}
               img={"/imgs/trainer4.png"}
-              info={"Aut corrupti dolores soluta laudantium."}
+              info={"Aut corrupti dolores soluta laudantium sit amet."}
             />
           </div>
         </div>

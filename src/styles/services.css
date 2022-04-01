@@ -97,6 +97,8 @@
 @media (max-width: 800px) {
   .advices {
     clear: both;
+    padding-left: 0;
+    width: 28rem;
   }
 
   .services-container {
